@@ -1,0 +1,17 @@
+# Maven build folder
+target
+bin
+
+# IDEA project files
+.idea/*
+
+# Temp files
+*~
+
+# Java Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+#antlr generated files
+**/*.tokens
+**/gen/**/*.*
